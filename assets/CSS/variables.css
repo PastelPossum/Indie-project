@@ -1,0 +1,15 @@
+:root {
+
+    --border: border: #404040 3px solid;
+
+    --main-font: font-family: 'Poppins', sans-serif;
+    --title-font: font-family: 'Nunito', sans-serif;
+    --cursive-font: font-family: 'Dancing Script', cursive;
+
+    --dark-color: #404040;
+    --golden: #DFB644;
+    --white: #FFFEFA;
+    --primary-light-color: #BFACB5;
+    --secondary-light-color: #E5D0CC;
+
+}
