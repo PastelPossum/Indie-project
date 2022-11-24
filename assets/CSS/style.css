@@ -1,0 +1,25 @@
+@import url("/assets/CSS/Book/booking-form.css");
+@import url("/assets/CSS/Book/rules.css");
+@import url("/assets/CSS/Hjem/home-about.css");
+@import url("/assets/CSS/Hjem/home-hero.css");
+@import url("/assets/CSS/Kontakt/contact-form.css");
+@import url("/assets/CSS/Kontakt/contact-hero.css");
+@import url("/assets/CSS/Kontakt/goodbye-message.css");
+@import url("/assets/CSS/Menu/menu-hero.css");
+@import url("/assets/CSS/Menu/menu-slider.css");
+@import url("/assets/CSS/Mød kattene/cats-setup.css");
+@import url("/assets/CSS/base.css");
+@import url("/assets/CSS/footer.css");
+@import url("/assets/CSS/menu.css");
+@import url("/assets/CSS/variables.css");
+
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+/* font-family: 'Nunito', sans-serif; */
