@@ -1,0 +1,60 @@
+.footer {
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.contact h3, .closing-time h3, .socials h3 {
+
+    font-size: 24px;
+    
+    padding-bottom: 10%;
+
+}
+
+.contact img{
+
+    max-width: 9%;
+
+    margin-left: -18%;
+    margin-bottom: -10%;
+
+}
+
+.contact p {
+
+padding-bottom: 14%;
+
+}
+
+.socials img {
+
+    max-width: 15%;
+
+    margin-left: 20%;
+
+}
+
+.closing-time h3 {
+
+    padding-left: 13%;
+
+}
+
+.closing-time li {
+
+    list-style: none;
+
+    padding-bottom: 14%;
+
+}
+
+.closing-time li, .closing-time p {
+
+    text-align: center;
+
+}   

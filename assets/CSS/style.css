@@ -7,11 +7,11 @@
 @import url("/assets/CSS/Kontakt/goodbye-message.css");
 @import url("/assets/CSS/Menu/menu-hero.css");
 @import url("/assets/CSS/Menu/menu-slider.css");
-@import url("/assets/CSS/Mød kattene/cats-setup.css");
-@import url("/assets/CSS/base.css");
-@import url("/assets/CSS/footer.css");
-@import url("/assets/CSS/menu.css");
-@import url("/assets/CSS/variables.css");
+@import url("/assets/CSS/Mød Kattene/cats-setup.css");
+@import url("base.css");
+@import url("footer.css");
+@import url("menu.css");
+@import url("variables.css");
 
 /* FONT */
 
