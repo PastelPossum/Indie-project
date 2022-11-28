@@ -26,3 +26,10 @@
     gap: 5%;
 
 }
+
+.navigation ul a li:hover {
+
+    color: var(--primary-light-color);
+    font-weight: bold;
+
+}
