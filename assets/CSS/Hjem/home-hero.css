@@ -1,0 +1,24 @@
+.welcome {
+
+    font-size: 5rem;
+
+    font-family: dancing script;
+    color: var(--white);
+
+    padding-right: 37%;
+    padding-top: 20%;
+
+}
+
+.index-hero {
+
+    height: 750px;
+    width: 100%;
+
+    background: linear-gradient(to bottom,#40404085, #BFACB5ba), url(/assets/img/index-hero.jpg);
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+
+}
