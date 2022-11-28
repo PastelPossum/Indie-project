@@ -1,0 +1,63 @@
+.about-container {
+
+    max-width: 70%;
+
+    margin: 4% 0 4% 16%;
+
+    border: 2px solid var(--primry-light-color);
+    border-radius: 30px;
+
+    background-color: var(--white);
+
+    box-shadow: 20px 20px 10px #BFACB54f;
+
+}
+
+.about-container h2 {
+
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+    text-align: center;
+
+}
+
+.about-container p {
+
+    padding-left: 2%;
+    padding-right: 2%;
+
+    text-align: center;
+
+}
+
+.index-book-btn {
+
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+
+    min-width: 15%;
+    
+
+    margin: 2% 0 2% 43%;
+
+    color: var(--white);
+    background-color: var(--secondary-light-color);
+
+    border: none;
+    border-radius: 10px;
+
+    transition: color 0.3s;
+
+}
+
+.index-book-btn:hover {
+
+    background-color: var(--primary-light-color);
+    
+
+}

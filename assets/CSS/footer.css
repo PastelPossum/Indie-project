@@ -6,6 +6,8 @@
     padding-top: 5%;
     padding-bottom: 5%;
 
+    background-color: var(--white);
+
 }
 
 .contact h3, .closing-time h3, .socials h3 {
