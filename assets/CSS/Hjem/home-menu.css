@@ -1,0 +1,35 @@
+.index-nav {
+
+    position: absolute;
+
+    width: 100%;
+    
+    margin-top: 2%;
+
+}
+
+.index-nav ul a li {
+    
+    color: var(--white);
+    font-size: 25px;
+    line-height: 30px;
+
+    padding: 6px;
+
+    border-radius: 8%;
+
+    transition: color 0.3s, background-color 0.3s;
+
+}
+
+.index-nav ul a li:hover {
+
+    background: #404040aa;
+    color: var(--golden);
+
+    padding: 6px;
+
+    border-radius: 8%;
+    
+
+}
