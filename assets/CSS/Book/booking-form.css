@@ -1,0 +1,80 @@
+.booking-container {
+
+    display: flex;
+
+    max-width: 70%;
+
+    margin: 4% 0 4% 16%;
+
+    border: 2px solid var(--primry-light-color);
+    border-radius: 30px;
+
+    background-color: var(--white);
+
+    box-shadow: 20px 20px 10px #BFACB54f;
+
+}
+
+.booking-form {
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 40%;
+
+    padding: 2%;
+
+}
+
+.booking-form label, .booking-form input {
+
+    margin-bottom: 5%;
+
+}
+
+.booking-form label {
+
+    font-weight: bold;
+    font-family:'Nunito', sans-serif;
+
+}
+
+.hours {
+
+    width: 40%;
+
+}
+
+.price {
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    max-width: 40%;
+
+    padding: 2%;
+    margin-left: 10%;
+
+}
+
+.price h3 {
+
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+    text-align: center;
+
+}
+
+.book-btn {
+
+    max-width: 50%;
+   
+    margin-left: 20%;
+
+}

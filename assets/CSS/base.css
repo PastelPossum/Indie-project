@@ -14,3 +14,28 @@ body {
     background-color: var(--secondary-light-color);
 
 }
+
+.index-book-btn, .book-btn {
+
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+
+    min-width: 15%;
+
+    color: var(--white);
+    background-color: var(--secondary-light-color);
+
+    border: none;
+    border-radius: 10px;
+
+    transition: color 0.3s;
+
+}
+
+.index-book-btn:hover, .book-btn:hover {
+
+    background-color: var(--primary-light-color);
+    
+
+}

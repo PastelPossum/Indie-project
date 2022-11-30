@@ -1,0 +1,44 @@
+.rules {
+
+    max-width: 70%;
+
+    margin: 4% 0 4% 16%;
+
+    border: 2px solid var(--primry-light-color);
+    border-radius: 30px;
+
+    background-color: var(--white);
+
+    box-shadow: 20px 20px 10px #BFACB54f;
+
+
+}
+
+.rules h1 {
+
+    font-size: 36px;
+    font-family: 'Nunito', sans-serif;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    text-align: center;
+
+}
+
+.rules ol {
+
+    padding: 4%;
+
+    text-align: center;
+
+}
+
+.rules ol li {
+
+    padding-bottom: 1.5%;
+    line-height: 1.5;
+
+}
+
+
