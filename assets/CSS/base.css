@@ -15,6 +15,8 @@ body {
 
 }
 
+/* BUTTONS */
+
 .index-book-btn, .book-btn {
 
     font-size: 24px;
@@ -37,5 +39,19 @@ body {
 
     background-color: var(--primary-light-color);
     
+
+}
+
+/* IMAGES */
+
+.contact-hero, .menu-hero, .index-hero {
+
+    height: 750px;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
 
 }

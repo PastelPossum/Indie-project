@@ -1,7 +1,6 @@
 .welcome {
 
-    font-size: 5rem;
-
+    font-size: 80px;
     font-family: dancing script;
     color: var(--white);
 
@@ -12,13 +11,6 @@
 
 .index-hero {
 
-    height: 750px;
-    width: 100%;
-
     background: linear-gradient(to bottom,#40404085, #BFACB5ba), url(/assets/img/index-hero.jpg);
-    background-size: cover;
-    background-position: center;
-
-    text-align: center;
 
 }

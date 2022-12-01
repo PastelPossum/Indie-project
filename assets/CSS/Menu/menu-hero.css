@@ -1,12 +1,5 @@
 .menu-hero {
 
-    height: 750px;
-    width: 100%;
-
     background: url(/assets/img/menu-hero.jpg);
-    background-size: cover;
-    background-position: center;
-
-    text-align: center;
 
 }
