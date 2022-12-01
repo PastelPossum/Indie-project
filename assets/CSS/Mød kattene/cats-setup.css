@@ -1,0 +1,39 @@
+.cat-wrapper {
+
+    margin: 2%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-left dl, .image-left dt, .image-left dd, .image-left p {
+
+    margin-bottom: 1%;  
+
+}
+
+.image-left img {
+
+    float: right;
+
+}
+
+.image-right dl, .image-right dt, .image-right dd, .image-right p {
+
+    margin-bottom: 1%;  
+
+}
+
+.image-right img {
+
+    float: left ;
+
+}
+
+.cat-wrapper dt {
+
+    font-weight: bold;
+    font-size: 24px;
+
+}
