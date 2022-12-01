@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <script src="assets\JS\menu-slider.js" defer></script>
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
@@ -41,35 +42,30 @@
 
     </section>
 
-    <div class="tabset">
-      <!-- Tab 1 -->
-      <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
-      <label for="tab1">Mad</label>
-      <!-- Tab 2 -->
-      <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
-      <label for="tab2">Snacks</label>
-      <!-- Tab 3 -->
-      <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
-      <label for="tab3">Drikkevarer</label>
-      
-      <div class="tab-panels">
-
-        <section id="marzen" class="tab-panel">
-          <h2>Mad</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dolorum, expedita ad corrupti cumque doloremque deserunt voluptatem architecto accusamus dignissimos, cupiditate cum quod aliquam. A assumenda ab explicabo iste minus?</p>
-      </section>
-
-        <section id="rauchbier" class="tab-panel">
-          <h2>Snacks</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laboriosam accusantium nostrum distinctio nulla illum debitis dignissimos sapiente, expedita pariatur quae maxime fuga. Consequatur neque, accusantium architecto rerum voluptas iure?</p>
-        </section>
-
-        <section id="dunkles" class="tab-panel">
-          <h2>Drikkevarer</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus accusantium facilis vero dicta ab ducimus repudiandae unde quaerat tempora illo nam commodi maxime ea ullam id, doloribus ipsa amet non?</p>
-        </section>
+    <h1>Vores menu</h1>
+    <div class="wrapper">
+      <div class="buttonWrapper">
+        <button class="tab-button active" style="border-top-left-radius: 10px;" data-id="home">Mad</button>
+        <button class="tab-button" data-id="about">Snacks</button>
+        <button class="tab-button" style="border-top-right-radius: 10px;" data-id="contact">Drikkevarer</button>
       </div>
-      
+      <div class="contentWrapper">
+        <p class="content active" id="home">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste doloribus unde ullam doloremque eos autem ad nulla accusamus? Modi at minima numquam accusamus repudiandae perspiciatis nostrum architecto voluptatem quasi?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ratione corporis earum laudantium sapiente autem praesentium error neque illum adipisci modi ea, consectetur rerum pariatur laborum aperiam at commodi! Impedit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quasi porro dolorum deleniti velit fuga perspiciatis veniam minus perferendis facere sit doloribus aliquid illum adipisci. Quam quasi maxime perferendis dolorem.
+        </p>
+        <p class="content" id="about">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis maxime itaque veritatis iste soluta placeat obcaecati laudantium repellat corrupti! Eius sunt rerum inventore magnam? Perspiciatis facere error suscipit quisquam quibusdam.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, corporis voluptatem quo dignissimos eius quis perferendis vero culpa reiciendis nulla quisquam fugit minima sed molestiae excepturi beatae repudiandae ea? Aliquid!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sapiente officia vel consequuntur, hic at quis? Illo repellendus dolores totam facilis sunt sequi qui hic, nulla ratione harum porro perspiciatis.
+        </p>
+        <p class="content" id="contact">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit incidunt nostrum? Magni, quam vero, magnam odio similique ipsam minima et repellat rerum cupiditate totam in repudiandae. Sed, dicta corrupti?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolore quas quis earum incidunt voluptas! Ducimus quod libero aliquid consequatur et modi porro officia, quibusdam quas commodi placeat maxime qui?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab ea debitis eligendi accusamus deleniti maxime pariatur. Assumenda, facere placeat eius quam magni accusantium aut quae minima iure atque incidunt illum.
+        </p>
+      </div>
     </div>
 
     <footer class="footer">
