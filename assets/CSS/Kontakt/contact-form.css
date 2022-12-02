@@ -11,6 +11,9 @@
 
     box-shadow: 20px 20px 10px #BFACB54f;
 
+    display: flex;
+    justify-content: space-between  ;
+
 }
 
 .contact-form label {
@@ -32,15 +35,33 @@
     display: flex;
     flex-direction: column;
 
-    max-width: 50%;
+    min-width: 50%;
 
-    margin: 5%;
-    padding-top: 2%;
+    padding: 5%;
 
 }
 
 .other-info dt {
 
     font-weight: bold;
+
+}
+
+.other-info dt, .other-info dd {
+
+    font-size: 24px;
+    
+    padding-bottom: 2%;
+
+}
+
+.other-info {
+
+    display: flex;
+   
+    min-width: 40%;
+
+    padding-top: 18%;
+    padding-right: 5%;
 
 }
