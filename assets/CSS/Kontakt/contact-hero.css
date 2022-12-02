@@ -1,5 +1,16 @@
 .contact-hero {
     
-    background: url(/assets/img/goodbye.jpg);
+    background: linear-gradient(to bottom,#404040, #BFACB5), url(/assets/img/goodbye.jpg);
+    background-blend-mode: multiply;
+
+}
+
+.goodbye-text {
+
+    color: var(--white);
+    font-family: 'Dancing Script';
+    font-size: 80px;
+
+    padding-top: 20%;
 
 }
