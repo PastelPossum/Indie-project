@@ -23,7 +23,7 @@ submitBtn.addEventListener("click", function(event){
     } else {
 
         window.location.reload();
-
+        //email bliver sendt til host og siden bliver reloaded
     }
 
 })
