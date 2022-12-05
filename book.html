@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <script src="/assets/JS/book-form.js" defer></script>
 </head>
 
 <body>
@@ -69,27 +70,29 @@
 
     <section class="booking-container">
 
-        <div class="booking-form">
+        <form class="booking-form">
 
             <label for="name">Fulde navn: </label>
-            <input type="text" name="name" placeholder="Marie Hansen">
+            <input type="text" name="name" id="name" placeholder="ex. Marie Hansen">
 
-            <label for="number">Hvor mange vil i blive? </label>
-            <input type="number" name="number">
+            <label for="number">Hvor mange personer vil i blive? </label>
+            <input type="number" name="number" id="number">
 
             <label for="hours"> Fra hvornår og hvor mange timer, vil du gerne booke? </label>
-            <input type="time" name="hours" class="hours">
-            <input type="time" name="hours" class="hours">
+            <input type="time" name="hours" class="hours" id="hours-from">
+            <input type="time" name="hours" class="hours" id="hours-to">
 
             <label for="">Din E-Mail: </label>
-            <input type="email" name="email" placeholder="exempel@hotmail.dk">
+            <input type="email" name="email" id="email" placeholder="exempel@hotmail.dk">
 
             <label for="phone">Dit Telefon nummer: </label>
-            <input type="tel" name="phone">
+            <input type="tel" name="phone" id="phone">
 
-            <button class="book-btn">Book Tid</button>
+            <button class="book-btn" id="submit-btn">Book Tid</button>
 
-        </div>
+            <p id="error-message"></p>
+
+        </form>
 
         <div class="price">
 

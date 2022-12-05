@@ -39,6 +39,18 @@
 
 }
 
+#number {
+
+    max-width: 20%;
+
+}
+
+#hours-from, #hours-to {
+
+    max-width: 20%;
+
+}
+
 .hours {
 
     width: 40%;
