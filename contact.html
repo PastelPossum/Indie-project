@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <script src="/assets/JS/contact-form.js" defer></script>
 </head>
 
 <body>
@@ -40,19 +41,22 @@
 
     <article class="contact-container">
 
-        <section class="contact-form">
+        <form id="contact-form">
 
-            <label for="name">Fulde navn: </label>
-            <input type="text" name="name" placeholder="Karoline Jensen">
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="ex. Karoline Andersen"/>
+            
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="exempel@hotmail.dk"/>
+            
+            <label for="message">Message: </label>
+            <textarea id="message" placeholder="Skriv til os her!"></textarea>
+            
+            <button type="submit" id="submit">Submit</button>
 
-            <label for="email">Din Email</label>
-            <input type="email" name="email" placeholder="exempel@hotmail.dk">
+            <p id="error-msg"></p>
 
-            <textarea name="" cols="30" rows="10" placeholder="Din besked"></textarea>
-
-            <button type="submit">Send</button>
-
-        </section>
+          </form>
 
         <section class="other-info">
 
