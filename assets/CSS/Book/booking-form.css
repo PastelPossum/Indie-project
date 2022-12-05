@@ -22,7 +22,7 @@
 
     max-width: 40%;
 
-    padding: 2%;
+    padding: 2% 2% 2% 5%;
 
 }
 
@@ -41,13 +41,13 @@
 
 #number {
 
-    max-width: 20%;
+    max-width: 21%;
 
 }
 
 #hours-from, #hours-to {
 
-    max-width: 20%;
+    max-width: 22%;
 
 }
 
@@ -80,6 +80,14 @@
     padding-bottom: 2%;
 
     text-align: center;
+
+}
+
+.price dt {
+
+    font-weight: bold;
+
+    margin: 1.5%;
 
 }
 
