@@ -36,12 +36,20 @@
   #contact-form button {
 
     margin-top: 5%;
+    margin-left: 34%;
+
+    color: var(--white);
+    font-weight: bold;
+
+    max-width: 30%;
+
+    border-radius: 10px;
 
   }
 
   #contact-form button:hover {
 
-    
+    background-color: var(--secondary-light-color);
 
   }
 
@@ -54,6 +62,9 @@
 .other-info dt {
 
     margin: 3%;
+
+    font-weight: bold;
+    font-size: 24px;
 
 }
 
