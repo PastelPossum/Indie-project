@@ -6,6 +6,8 @@
     --title-font: font-family: 'Nunito', sans-serif;
     --cursive-font: font-family: 'Dancing Script', cursive;
 
+    /* For some reason my damn font variables don't work grrr */
+
     --dark-color: #404040;
     --golden: #DFB644;
     --white: #FFFEFA;
