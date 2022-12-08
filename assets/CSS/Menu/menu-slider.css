@@ -1,11 +1,18 @@
-h1 {
+.menu-hero h1 {
 
-  font-size: 34px;
-  font-family: 'Nunito', sans-serif;;
+  font-size: 80px;
+  font-family: 'Nunito', sans-serif;
+  color: var(--white);
 
   text-align: center;
 
-  padding: 2%;
+  padding-top: 30%;
+
+}
+
+.menu-hero {
+
+  margin-bottom: 5%;
 
 }
 
